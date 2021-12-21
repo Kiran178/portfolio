@@ -1,0 +1,22 @@
+@import"./variables";
+
+.header{
+    box-shadow: 0 10px 30px -10px $box-shadow;
+    min-height: 80px;
+    padding: 0 50px;
+    backdrop-filter: blur( 7px );
+    background-color: #0a192fd9;
+}
+.header .nav-link{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    font-family: 'sf mono';
+    font-size: 0.875rem;
+}
+.header button{
+    margin: 0 1rem;
+    font-size: 0.875rem;
+}
+.navbar-brand{
+    font-family: 'sf mono';
+}

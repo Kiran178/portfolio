@@ -1,0 +1,98 @@
+// variables must be imported before bootstrap
+@import './variables';
+
+//Default Bootstrap Styling
+@import '~bootstrap/scss/bootstrap';
+
+//Header Css
+@import './header';
+@import'./herosection';
+@import'./sociallinks';
+@import"./about";
+
+//Global Styling
+
+body{
+    background-color: $primary;
+}
+span{
+    color:$secondary;
+    font-family: 'sf mono'; 
+}
+
+h2,h3,h4,h5,h6,p{
+    color:$text-color;
+    font-family: 'Calibre';
+}
+
+h1{
+    color:$secondary;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0px 0px 30px 4px;
+    font-family: 'sf mono'; 
+}
+h2{
+    
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1;
+}
+h3{
+    font-size: 5rem;
+    line-height: 1;
+}
+h4{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+button{
+    font-family: 'sf mono';
+}
+a{
+    color: $secondary;
+}
+.container{
+    max-width: 1000px !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #474e64; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $text-color; 
+  }
+
+//Page Transation Animation
+
+.frame{
+    position: fixed;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+}
+.frame1{
+    background: #8892b0;
+}
+.frame2{
+    background: #1A857F;
+}
+.frame3{
+    background: #3991F9;
+}
+.frame4{
+    background: #00C6BD;
+}
